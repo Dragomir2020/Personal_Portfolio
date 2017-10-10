@@ -4,4 +4,5 @@
 - parallax effect
 ## Built using bootstraps
 - Scales for viewing on mobile platforms
+- Google analytics
 
