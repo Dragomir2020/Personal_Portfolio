@@ -5,4 +5,5 @@
 ## Built using bootstraps
 - Scales for viewing on mobile platforms
 - Google analytics
+- Uses AWS microservice to handle emails
 
