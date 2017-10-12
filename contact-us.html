@@ -26,7 +26,6 @@
 	  window.dataLayer = window.dataLayer || [];
 	  function gtag(){dataLayer.push(arguments);}
 	  gtag('js', new Date());
-
 	  gtag('config', 'UA-107753707-1');
 	</script>
 	
@@ -141,6 +140,7 @@
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2">
 						<div class="contact-form">
+							<span id="hForm" style="display: block;">
 							<form id="contact-form">
 								<div class="row">
 									<div class="col-md-4">
@@ -168,12 +168,15 @@
                                         </div>
 									</div>
                                     <div style="text-align: center;">
-                                        <button type="submit" class="btn btn-danger btn-fill">
+                                        <button type="submit" class="btn btn-danger btn-fill" onClick>
                                             Submit Quote Request
                                         </button>
                                   	</div>
                                 </div>
 							</form>
+							</span>
+							<h5 id="line1" style="text-align: center; display: none;" class="subtitle text-gray">Thanks for your request.</h5>
+							<h5 id="line2" style="text-align: center; display: none;" class="subtitle text-gray">I look forward to reviewing your proposal.</h5>
 						</div>
 					</div>
 				</div>
@@ -260,7 +263,6 @@
 	
 <script type="text/javascript">
 	var URL = 'https://nighuhb5nl.execute-api.us-east-1.amazonaws.com/prod/contact'
- 	console.log("YES JS");
 		$('#contact-form').submit(function (event) {
 		  event.preventDefault()
 
@@ -279,7 +281,8 @@
 				data: JSON.stringify(data),
 				success: function () {
 				  // clear form and show a success message
-					console.log("success")
+					console.log("success");
+					hideForm("hForm", "line1", "line2");
 				},
 				error: function () {
 				  // show an error message
@@ -287,6 +290,12 @@
 				}
 			  });
 			});
+	
+	function hideForm(id, line1, line2) {
+    	document.getElementById(id).style.display = 'none';
+		document.getElementById(line1).style.display = 'block';
+        document.getElementById(line2).style.display = 'block';
+	}
 </script>
 
 </html>
