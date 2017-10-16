@@ -6,4 +6,5 @@
 - Scales for viewing on mobile platforms
 - Google analytics
 - Uses AWS microservice to handle emails
+- SSL certs handled in Route 53
 
