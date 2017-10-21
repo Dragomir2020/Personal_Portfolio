@@ -1,7 +1,7 @@
 # Personal_Portfolio
 - Personal Portfolio and Blog
 - Uses google api
-- parallax effect
+- parallax scrolling effect
 ## Built using bootstraps
 - Scales for viewing on mobile platforms
 - Google analytics: allows for advanced traffic tracking 
