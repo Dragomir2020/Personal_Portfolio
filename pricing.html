@@ -14,12 +14,22 @@
     <link href="assets/css/gaia.css" rel="stylesheet"/>
 
     <!-- Canonical SEO -->
-    <link rel="canonical" href="https://www.creative-tim.com/product/gaia-bootstrap-template-pro"/>
+    <link rel="canonical" href="https://www.dillondragomir.com"/>
     
     <!--     Fonts and icons     -->
     <link href='https://fonts.googleapis.com/css?family=Cambo|Lato:400,700' rel='stylesheet' type='text/css'>
-    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
     <link href="assets/css/fonts/pe-icon-7-stroke.css" rel="stylesheet">
+	<!-- Global Site Tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-107753707-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-107753707-1');
+	</script>
+	
 </head>
 
 <body>
@@ -34,8 +44,8 @@
                     <span class="icon-bar bar2"></span>
                     <span class="icon-bar bar3"></span>
                 </button>
-                <a href="http://dillondragomir.weebly.com" class="navbar-brand">
-                    Dillon Dragomir
+                <a href="index.html" class="navbar-brand">
+                    Dragomir Development
                 </a>
             </div>
             <div class="collapse navbar-collapse">
@@ -43,38 +53,17 @@
                     <li>
                         <a href="index.html">Home</a>
                     </li>
-					<li>
-						<a href="blog-post.html">Blog</a>
-					</li>
-					<!--
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <span class="caret"></span></a>
+					<li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <span class="caret"></span></a>
                         <ul class="dropdown-menu dropdown-danger">
-                            <li>
-                                <a href="blog-post.html">Blog post</a>
+							<li>
+                                <a href="about-us.html">About</a>
                             </li>
                             <li>
-                                <a href="blog-posts.html">Blog Posts</a>
-                            </li>
-                        </ul>
-                    </li>-->
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages <span class="caret"></span></a>
-                        <ul class="dropdown-menu dropdown-danger">
-                            <li>
-                                <a href="about-us.html">About us</a>
+                                <a href="experience.html">Experience</a>
                             </li>
                             <li>
-                                <a href="contact-us.html">Contact us</a>
-                            </li>
-                            <li>
-                                <a href="portfolio.html">Portfolio</a>
-                            </li>
-                            <li>
-                                <a href="signin.html">Signin</a>
-                            </li>
-                            <li>
-                                <a href="signup.html">Signup</a>
+                                <a href="projects.html">Projects</a>
                             </li>
                         </ul>
                     </li>
@@ -82,21 +71,24 @@
                         <a href="pricing.html">Pricing</a>
                     </li>
                     <li>
-                        <a href="contact-us.html" class="btn btn-danger btn-fill">Contact Us</a>
+                        <a href="contact-us.html" class="btn btn-danger btn-fill">Contact Me</a>
                     </li>
                     <li class="dropdown">
                         <a href="#gaia" class="dropdown-toggle" data-toggle="dropdown">
-                            <i class="fa fa-sign-in"></i> Sign In
+                            <i class="fa fa-share-alt"></i> Social
                         </a>
                         <ul class="dropdown-menu dropdown-danger">
                             <li>
-                                <a id="facebookNav" href="#"><i class="fa fa-facebook-square"></i> Facebook</a>
+                                <a id="facebookNav" href="https://www.facebook.com/Dragomir2020/"><i class="fa fa-facebook-square"></i> Facebook</a>
+							</li>
+                            <li>
+								<a id="linkedInNav" href="https://www.linkedin.com/company-beta/25166872/"><i class="fa fa-linkedin-square"></i> LinkedIn</a>
                             </li>
                             <li>
-                                <a id="twitterNav" href="#"><i class="fa fa-twitter"></i> Twitter</a>
+                                <a id="githubNav" href="https://github.com/Dragomir2020"><i class="fa fa-github"></i> Github</a>
                             </li>
                             <li>
-                                <a id="googleNav" href="#"><i class="fa fa-google-plus"></i> Google</a>
+                                <a id="googlePlusNav" href="https://plus.google.com/u/0/+DillonDragomir"><i class="fa fa-google-plus"></i> Google</a>
                             </li>
                         </ul>
                     </li>
@@ -121,13 +113,13 @@
 
                     <div class="row">
                         <div class="col-md-10 col-md-offset-1">
-                            <div class="col-sm-6">
+                            <div class="col-sm-4">
                                 <div class="card card-price">
                                     <div class="content">
                                         <h4 class="title-header">
                                             free estimate
                                             <br>
-                                            <!--<small class="subtitle-header">month</small>-->
+                                            <small class="subtitle-header">15 min</small>
                                         </h4>
                                         <div class="price">
                                             <i class="fa fa-dollar"></i>
@@ -136,7 +128,7 @@
                                         <p class="text-description">
                                             personal consultation<br>
                                             project quote<br>
-                                            <span>12/5 Support</span>
+                                            <!--<span>12/5 Support</span>-->
                                         </p>
                                         <div class="text-center">
 											<a href="contact-us.html" class="btn btn-round btn-danger btn-fill">Submit Estimate Request</a>
@@ -144,51 +136,46 @@
                                     </div>
                                 </div>
                             </div>
-							<!--
                             <div class="col-sm-4">
                                 <div class="card card-price card-white">
                                     <div class="content">
                                         <h4 class="title-header title-gold">
-                                            pro
+                                            Font-end
                                             <br>
-                                            <small class="subtitle-header subtitle-black">month</small>
+                                            <small class="subtitle-header subtitle-black">Hourly</small>
                                         </h4>
                                         <div class="price">
                                             <i class="fa fa-dollar icon-black"></i>
-                                            <div class="number text-danger">199</div>
+                                            <div class="number text-danger">30</div>
                                         </div>
                                         <p class="text-description">
-                                            300 Messages<br>
-                                            150 Contacts<br>
-                                            <span class="text-gold">24/7 Support</span>
+                                           30 days free service<br>
+                                            <span class="text-danger">100 % satisfaction guarenteed</span>
                                         </p>
                                         <div class="text-center">
-                                            <button type="button" class="btn btn-danger btn-round btn-fill">
-                                                get started
-                                            </button>
+											<a href="contact-us.html" class="btn btn-round btn-danger btn-fill">Submit Project Proposal</a>
                                         </div>
                                     </div>
                                 </div>
-                            </div>-->
-                            <div class="col-sm-6">
+                            </div>
+                            <div class="col-sm-4">
                                 <div class="card card-price card-black">
                                     <div class="content">
                                         <h4 class="title-header text-danger">
-                                            pricing
+                                            Back-end
                                             <br>
                                             <small class="subtitle-header subtitle-white">hourly</small>
                                         </h4>
                                         <div class="price">
                                             <i class="fa fa-dollar"></i>
-                                            <div class="number text-danger">40</div>
+                                            <div class="number text-danger">50</div>
                                         </div>
                                         <p class="text-description">
-                                           1-on-1 consultation<br>
-                                            100 % satisfaction guarenteed<br>
-                                            <span class="text-danger">24/7 Support</span>
+                                           30 days free service<br>
+                                            <span class="text-danger">100 % satisfaction guarenteed</span>
                                         </p>
                                         <div class="text-center">
-                                            <a href="contact-us.html" class="btn btn-round btn-danger btn-fill">Submit Estimate Request</a>
+                                            <a href="contact-us.html" class="btn btn-round btn-danger btn-fill">Submit Project Proposal</a>
                                         </div>
                                     </div>
                                 </div>
@@ -283,112 +270,40 @@
             </div>
         </div>
     </div>
-
-
-    <footer class="footer footer-big footer-color-black" data-color="black">
+    <footer class="footer footer-color-black" data-color="black">
         <div class="container">
-            <div class="row">
-                <div class="col-md-2 col-sm-3">
-                    <div class="info">
-                        <h5 class="title">Company</h5>
-                        <nav>
-                            <ul>
-                                <li>
-                                    <a href="#">Home</a></li>
-                                <li>
-                                    <a href="#">Find offers</a>
-                                </li>
-                                <li>
-                                    <a href="#">Discover Projects</a>
-                                </li>
-                                <li>
-                                    <a href="#">Our Portfolio</a>
-                                </li>
-                                <li>
-                                    <a href="#">About Us</a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
-                <div class="col-md-3 col-md-offset-1 col-sm-3">
-                    <div class="info">
-                        <h5 class="title"> Help and Support</h5>
-                         <nav>
-                            <ul>
-                                <li>
-                                    <a href="#">Contact Us</a>
-                                </li>
-                                <li>
-                                    <a href="#">How it works</a>
-                                </li>
-                                <li>
-                                    <a href="#">Terms &amp; Conditions</a>
-                                </li>
-                                <li>
-                                    <a href="#">Company Policy</a>
-                                </li>
-                                <li>
-                                    <a href="#">Money Back</a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-3">
-                    <div class="info">
-                        <h5 class="title">Latest News</h5>
-                        <nav>
-                            <ul>
-                                <li>
-                                    <a href="#">
-                                        <i class="fa fa-twitter"></i> <b>Get Shit Done</b> The best kit in
-                                        the market is here, just give it a try and let us...
-                                        <hr class="hr-small">
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="fa fa-twitter"></i> We've just been featured on <b> Awwwards Website</b>! Thank you everybody for...
-                                    </a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
-                <div class="col-md-2 col-md-offset-1 col-sm-3">
-                    <div class="info">
-                        <h5 class="title">Follow us on</h5>
-                        <nav>
-                            <ul>
-                                <li>
-                                    <a href="#" class="btn btn-social btn-facebook btn-simple">
-                                        <i class="fa fa-facebook-square"></i> Facebook
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="btn btn-social btn-dribbble btn-simple">
-                                        <i class="fa fa-dribbble"></i> Dribbble
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="btn btn-social btn-twitter btn-simple">
-                                        <i class="fa fa-twitter"></i> Twitter
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="btn btn-social btn-reddit btn-simple">
-                                        <i class="fa fa-google-plus-square"></i> Google+
-                                    </a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
+            <nav class="pull-left">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about-us.html">About</a>
+                    </li>
+                    <li>
+                        <a href="pricing.html">Pricing</a>
+                    </li>
+                    <li>
+                        <a href="contact-us.html">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="social-area pull-right">
+				<a  href="https://www.facebook.com/Dragomir2020/" class="btn btn-social btn-facebook btn-simple">
+					<i class="fa fa-facebook-square"></i>
+				</a>
+				<a href="https://www.linkedin.com/company-beta/25166872/" class="btn btn-social btn-linkedin btn-simple">
+					<i class="fa fa-linkedin"></i>
+				</a>
+				<a href="https://github.com/Dragomir2020" class="btn btn-social btn-github btn-simple">
+					<i class="fa fa-github"></i>
+				</a>
+				<a href="https://plus.google.com/u/0/+DillonDragomir" class="btn btn-social btn-google btn-simple">
+					<i class="fa fa-google-plus-square"></i>
+				</a>
             </div>
-            <hr>
             <div class="copyright">
-                 © <script> document.write(new Date().getFullYear()) </script> Creative Tim, made with love
+                &copy; <script>document.write(new Date().getFullYear())</script>  Dillon Dragomir
             </div>
         </div>
     </footer>
@@ -403,7 +318,7 @@
 <script type="text/javascript" src="assets/js/modernizr.js"></script>
 
 <!--  script for google maps   -->
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCXoLUc0Af5BrvMc4bALFAZ-Fl3t_43z6s"></script>
 
 <!--   file where we handle all the script from the Gaia - Bootstrap Template   -->
 <script type="text/javascript" src="assets/js/gaia.js"></script>

@@ -22,6 +22,7 @@ var scroll_distance = 500;
 $(document).ready(function(){
     BrowserDetect.init();
 
+	// Add better browser message if before Internet Explorer 9
     if(BrowserDetect.browser == 'Explorer' && BrowserDetect.version <= 9){
         $('body').html(better_browser);
     }
@@ -295,6 +296,7 @@ var better_browser = '<div class="container"><div class="better-browser row"><di
 
 // for demo purpose
 
+/*
 $().ready(function(){
     $('#twitter, #twitterNav').sharrre({
       share: {
@@ -309,7 +311,7 @@ $().ready(function(){
         api.openPopup('twitter');
       },
       template: '<i class="fa fa-twitter"></i> Twitter',
-      url: 'http://demos.creative-tim.com/gaia-bootstrap-template-pro/index.html'
+      url: 'https://www.linkedin.com/company-beta/25166872/admin/updates/'
     });
 
     $('#facebook, #facebookNav').sharrre({
@@ -324,7 +326,7 @@ $().ready(function(){
         api.openPopup('facebook');
       },
       template: '<i class="fa fa-facebook-square"></i> Facebook',
-      url: 'http://demos.creative-tim.com/gaia-bootstrap-template-pro/index.html'
+      url: 'https://www.facebook.com/Dragomir2020/'
     });
 
     $('#google, #googleNav').sharrre({
@@ -339,14 +341,15 @@ $().ready(function(){
         api.openPopup('googlePlus');
       },
       template: '<i class="fa fa-google-plus"></i> Google',
-      url: 'http://demos.creative-tim.com/gaia-bootstrap-template-pro/index.html'
+      url: 'https://plus.google.com/u/0/+DillonDragomir'
     });
-});
+});*/
 
+/*
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
 ga('create', 'UA-46172202-1', 'auto');
-ga('send', 'pageview');
+ga('send', 'pageview');*/
