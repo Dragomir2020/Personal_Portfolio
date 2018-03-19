@@ -111,12 +111,12 @@
     <div class="section section-header-blog">
         <div class="parallax filter filter-color-black">
             <div class="image"
-                style="background-image:url('assets/img/AWS_1.png')">
+                style="background-image:url('assets/img/data_structures.jpg')">
             </div>
             <div class="container">
                 <div class="content">
-                    <h1>Amazon Web Services</h1>
-                    <h3 class="subtitle">Brief guide of how I utilize my favorite services.</h3>
+                    <h1>Data Structures</h1>
+                    <h3 class="subtitle">Various C++ data structures with unit and performance tests</h3>
                     <div class="separator separator-danger">✻</div>
                 </div>
             </div>
@@ -127,34 +127,39 @@
             <div class="row">
                 <div class="col-md-8">
                     <div class="content-blog">
-						<h1>AWS Services</h1>
-						<p>AWS has many useful services and I will cover a few use cases I have leveraged.</p>
-						<h2>Lambda</h2>
-							<p>AWS Lambda lets you run code without provisioning or managing servers. You pay only for the compute time you consume - there is no charge when your code is not running.</p>
-						<h2>EC2</h2>
-							<p>Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides secure, resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers.</p>
-						<h2>Elastic Beanstalk</h2>
-							<p>AWS Elastic Beanstalk is an easy-to-use service for deploying and scaling web applications utilizing EC2.</p>
-						<h2>Simple Email Service</h2>
-							<p>Amazon Simple Email Service (Amazon SES) is a cloud-based email sending service designed to help digital marketers and application developers send marketing, notification, and transactional emails. It is a reliable, cost-effective service for businesses of all sizes that use email to keep in contact with their customers.</p>
-						<h2>Cloud Front</h2>
-							<p>Amazon CloudFront is a global content delivery network (CDN) service that securely delivers data, videos, applications, and APIs to your viewers with low latency and high transfer speeds.</p>
-						<h2>S3</h2>
-							<p>Companies today need the ability to simply and securely collect, store, and analyze their data at a massive scale. Amazon S3 is object storage built to store and retrieve any amount of data from anywhere – web sites and mobile apps, corporate applications, and data from IoT sensors or devices.</p>
-						<h2>Route53</h2>
-							<p>Amazon Route 53 is a highly available and scalable cloud Domain Name System (DNS) web service. It is designed to give developers and businesses an extremely reliable and cost effective way to route end users to Internet applications by translating names like www.example.com into the numeric IP addresses like 192.0.2.1 that computers use to connect to each other. Amazon Route 53 is fully compliant with IPv6 as well.</p>
-						<h2>Code Pipeline</h2>
-							<p>AWS CodePipeline is a continuous integration and continuous delivery service for fast and reliable application and infrastructure updates. CodePipeline builds, tests, and deploys your code every time there is a code change, based on the release process models you define. </p>
-						<h2>API Gateway</h2>
-							<p>Amazon API Gateway is a fully managed service that makes it easy for developers to create, publish, maintain, monitor, and secure APIs at any scale.</p>
-						<!--
-						<div class="separator separator-danger">✻</div>
-						
-						<h1>Applications</h1>
-						<h2><a href="about-us.html">Streamline application version control, testing and deployment</a></h2>
-						<p>Migrate your whole DevOps environment to the cloud and automate code from the commit to the deploment.</p>
-						<h2>Deploy serverless applications for low traffic applications</h2>
-						<h2>Send emails to clients from submitted forms and create client list</h2>-->
+						<h1>Data Structures</h1>
+						<p>These are various data strucutres I programmed from the ground up using C++. I wrote unit and performance tests for most of them and automated the build and test stages of the dev-ops pipeline in the cloud. Everytime new commits are made to the repositories the code is built and tested in th cloud.</p>
+						<a href="https://github.com/Dragomir2020/Binary-Search-Tree">
+							<h2 style="text-decoration: underline">Binary Search Tree</h2>
+						</a>
+						<p>This is an unbalanced binary search tree. Binary search tree's can be faster in search, insert and delete and are good for types of data that can be sorted.</p>
+						<h3>Average Speed</h3>
+						<ul>
+							<li><p>Space: O(n)</p></li>
+							<li><p>Search: O(log n)</p></li>
+							<li><p>Insert: O(log n)</p></li>
+							<li><p>Delete: O(log n)</p></li>
+						</ul>
+						<a href="https://github.com/Dragomir2020/Hash-Table">
+						<h2 style="text-decoration: underline">Hash Table</h2>
+						</a>
+							<p></p>
+						<a href="https://github.com/Dragomir2020/Max_Heap_Array">
+						<h2 style="text-decoration: underline">Max Heap Array</h2>
+						</a>
+							<p></p>
+						<a href="https://github.com/Dragomir2020/Directed-Graph">
+						<h2 style="text-decoration: underline">Directed Graph</h2>
+						</a>
+							<p></p>
+						<a href="https://github.com/Dragomir2020/LinkedBagCpp">
+						<h2 style="text-decoration: underline">Linked Bag</h2>
+						</a>
+							<p></p>
+						<a href="https://github.com/Dragomir2020/ArrayBag">
+						<h2 style="text-decoration: underline">Array Bag</h2>
+						</a>
+							<p></p>
 						
                     </div>
 					
@@ -168,10 +173,12 @@
                 <div class="col-md-3 col-md-offset-1 text-center">
                     <h3 class="social-title">Author</h3>
                     <div class="author">
+						<a href="about-us.html">
                         <div class="avatar avatar-danger">
                             <img alt="..." src="assets/img/dillon.jpg"/>
                         </div>
-
+						</a>
+						
                         <div class="description text-center">
                             <h3 class="big-text">Dillon</h3>
                             <p class="small-text">Full-stack</p>
@@ -183,10 +190,10 @@
                         </div>
                     </div>
                     <h3 class="social-title">Categories</h3>
-                    <span class="label label-fill label-danger">Tech</span>
-                    <span class="label label-fill label-danger">Database</span>
-                    <span class="label label-fill label-danger">Javascript</span>
-                    <span class="label label-fill label-danger">SDK</span>
+                    <span class="label label-fill label-warning">Tech</span>
+                    <span class="label label-fill label-danger">Data Structures</span>
+                    <span class="label label-fill label-success">C++</span>
+                    <span class="label label-fill label-info">Testing</span>
                 </div>
             </div>
         </div>
